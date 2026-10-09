@@ -9,12 +9,15 @@ running the app and the tests. Your partner will follow them without your help.
 
 ## Run
 
-TODO
+python -m assistant "where is the library?"
+ # -> Library: room B.201, open Mon-Sat 07:00-20:00.
 
 ## Test
 
-TODO
+pytest -q # -> 4 passed
 
 ## Project structure
 
-TODO
+- "No module named assistant" -> you forgot `pip install -e .` or the venv is not active.
+- PowerShell blocks Activate.ps1 -> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
