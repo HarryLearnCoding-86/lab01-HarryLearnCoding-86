@@ -4,17 +4,19 @@ A starter repository for the CSC10014 Smart Virtual Assistant project.
 
 ## Setup
 
-(Lab 1): write the exact steps a new teammate needs, from a fresh machine to
-running the app and the tests. Your partner will follow them without your help.
+Execute the following commands in a Git Bash terminal to initialize the environment:
+1. `python -m venv .venv`
+2. `source .venv/Scripts/activate`
+3. `pip install -e .`
 
 ## Run
 
-python -m assistant "where is the library?"
- # -> Library: room B.201, open Mon-Sat 07:00-20:00.
+`python -m assistant "where is the library?"`
+-> Library: room B.201, open Mon-Sat 07:00-20:00.
 
 ## Test
 
-pytest -q # -> 4 passed
+`pytest -q` # -> 4 passed
 
 ## Project structure
 
